@@ -1,0 +1,26 @@
+.snackbar {
+  min-width: 250px;
+  margin-left: -125px;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  position: fixed;
+  padding: 16px;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-family: 'Tourney', cursive;
+  font-weight: 200 !important;
+}
+
+.snackbar-success {
+  background-color: #4f9d69;
+}
+
+.snackbar-error {
+  background-color: #dd4b39;
+}
+
+.snackbar-normal {
+  background-color: #264653;
+}
